@@ -9,6 +9,19 @@ int main(){
         printf("%s",s2)    
     }
 }
+//solution
+//#include <cstdio>
+
+//int main(){
+//    char s2[1000];
+//    int c;
+//    while(true){
+//        printf("strat\n");
+      // fgets
+//        if(scanf("%[^\n]%*c",s2) != 1) break;
+//        printf("%s",s2);
+//    }
+//}
 
 
 #include <string>  
