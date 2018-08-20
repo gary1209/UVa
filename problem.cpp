@@ -34,3 +34,9 @@ int main()
     printf("%d,%d",a,b);   //output 5,32767
     return 0;  
 }  
+
+//3.
+// s = "howwwe";
+    scanf("%s",s);
+    printf("%c",*ptr);
+    printf("%c",ptr[0]);
