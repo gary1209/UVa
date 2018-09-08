@@ -24,15 +24,16 @@ int main(){
       if(i>max_row) max_row = i;
     }
   }
-  max_row++;
+  // max_row++;
   // printf("max_col:%d\n",max_col);
   // printf("max_row:%d\n",max_row);
   for(int m = 0; m < max_col; m++){
     for(int k = max_row-1; k >= 0; k--){
-      if(a[k][m] != '\n') printf("%c",a[k][m]);
+      if(a[k][m] != '\n' && a[k][m] != '\0') printf("%c",a[k][m]);
+      
       else printf(" ");
     }
-    if(m != max_col-1) printf("\n");
+    printf("\n");
   }
 }
 
